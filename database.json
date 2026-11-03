@@ -2,28 +2,37 @@
   {
     "id": "app_sefirah",
     "appName": "Sefirah",
-    "downloadUrl": "https://github.com/shrimqy/Sefirah-Android/releases/latest/download/app-release.apk",
+    "downloadUrl": "https://github.com/shrimqy/Sefirah-Android/releases/latest/download/Sefirah-3.2.0.apk",
     "iconUrl": "https://raw.githubusercontent.com/shrimqy/Sefirah-Android/main/fastlane/metadata/android/en-US/images/icon.png",
-    "categoryId": "videos",
+    "categoryId": "utilities",
     "versionName": "1.0",
-    "description": "Reproductor de Video y Multimedia"
+    "description": "Desktop to mobile sync"
   },
   {
     "id": "app_calculator",
     "appName": "Calculator",
-    "downloadUrl": "https://github.com/FossifyOrg/Calculator/releases/latest/download/calculator.apk",
+    "downloadUrl": "https://github.com/FossifyOrg/Calculator/releases/latest/download/calculator-10-foss-release.apk",
     "iconUrl": "https://raw.githubusercontent.com/FossifyOrg/Calculator/master/fastlane/metadata/android/en-US/images/icon.png",
     "categoryId": "utilities",
     "versionName": "1.0",
-    "description": "Utilidad de Calculadora Fossify"
+    "description": "Fossify Calculator Utility"
   },
   {
     "id": "app_koda",
     "appName": "Koda",
-    "downloadUrl": "https://github.com/Ivorisnoob/Koda/releases/download/v1.0/koda.apk",
+    "downloadUrl": "https://github.com/Ivorisnoob/Koda/releases/download/latest/koda.apk",
     "iconUrl": "https://raw.githubusercontent.com/Ivorisnoob/Koda/main/icon.png",
-    "categoryId": "games",
+    "categoryId": "videos",
     "versionName": "1.0",
-    "description": "Juego / App Koda"
-  }
+    "description": "Alt client for YouTube by IvorIsNoob"
+  },
+  {
+    "id": "app_draft",
+    "appName": "Draft",
+    "downloadUrl": "https://github.com/sameerasw/draft-android/releases/download/latest/koda.apk",
+    "iconUrl": "https://raw.githubusercontent.com/Ivorisnoob/Koda/main/icon.png",
+    "categoryId": "utilities",
+    "versionName": "1.0",
+    "description": "Sameerasw's notes app with GitHub sync"
+  },
 ]
