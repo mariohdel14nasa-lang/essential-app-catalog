@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Datos JSON</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; }
+        .item { padding: 10px; margin: 8px 0; background: #f4f4f4; border-radius: 6px; }
+    </style>
+</head>
+<body>
+
+    <h1>Estado de la Base de Datos</h1>
+    <p id="info">Cargando datos...</p>
+    <div id="contenedor-items"></div>
+
+    <script>
+        async function cargarDatos() {
+            try {
+                // Como el HTML y el JSON están en el mismo sitio, la ruta es relativa
+                const response = await fetch('database.json');
+                if (!response.ok) throw new Error('No se pudo cargar el JSON');
+                
+                const db = await response.json();
+                
+                document.getElementById('info').textContent = `Versión: ${db.version} | Actualizado: ${db.last_updated}`;
+                
+                const contenedor = document.getElementById('contenedor-items');
+                contenedor.innerHTML = '';
+                
+                db.items.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'item';
+                    div.innerHTML = `<strong>${item.title}</strong> - Estado: <em>${item.status}</em>`;
+                    contenedor.appendChild(div);
+                });
+
+            } catch (error) {
+                document.getElementById('info').textContent = 'Error al cargar los datos.';
+                console.error(error);
+            }
+        }
+
+        cargarDatos();
+    </script>
+
+</body>
+</html>
