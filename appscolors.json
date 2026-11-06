@@ -1,8 +1,12 @@
-<color name="purple">#FF6200EE</color>
-<color name="black">#FF000000</color>
-<color name="darkgray">#FF1C1B1F</color>
-<color name="lightpink">#FFD0BCFF</color>
-<color name="darkwhite">#B8CEDB</color>
-<color name="purplep">#402B7A</color>
-<color name="green">#488066</color>
-<color name="black">#FF000000</color>
+[
+   {
+     <color name="purple">#FF6200EE</color>
+     <color name="black">#FF000000</color>
+     <color name="darkgray">#FF1C1B1F</color>
+     <color name="lightpink">#FFD0BCFF</color>
+     <color name="darkwhite">#B8CEDB</color>
+     <color name="purplep">#402B7A</color>
+     <color name="green">#488066</color>
+     <color name="black">#FF000000</color>
+    },
+]
