@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "catalog": {
+    "windows": {
+      "music": [],
+      "videos": [],
+      "utilities": [
+        {
+          "name": "Sefirah",
+          "description": "Desktop to mobile",
+          "icon": "https://example.com/sefirah.png",
+          "download": "https://example.com/sefirah-windows.zip",
+          "version": "1.0"
+        },
+        {
+          "name": "Calculator",
+          "description": "Fossify Calculator",
+          "icon": "https://example.com/calculator.png",
+          "download": "https://example.com/calculator-windows.zip",
+          "version": "1.0"
+        }
+      ],
+      "games": []
+    },
+    "macos": {
+      "music": [],
+      "videos": [],
+      "utilities": [],
+      "games": []
+    },
+    "linux": {
+      "music": [],
+      "videos": [],
+      "utilities": [],
+      "games": []
+    }
+  }
+}
